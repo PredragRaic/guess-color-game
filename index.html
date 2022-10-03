@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>Guess Color Game</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="head-container wrap">
+            <div class="h3-div"><h3>THE GREAT</h3></div>
+            <div class="rgb-guess">
+                <h1 id="h1">
+                    <!-- RGB(<span id="first-number">0</span>, <span id="second-number">0</span>, <span id="third-number">0</span>) -->
+                </h1>
+            </div>
+            <div class="h3-div">
+                <h3>GUESSING GAME</h3>
+            </div>
+        </div>
+        <div class="new-guess wrap">
+            <button onClick="window.location.reload();">NEW</button>
+        </div>
+        <div class="colors wrap">
+            <ul>
+                <li class="li" id="one"></li>
+                <li class="li" id="two"></li>
+                <li class="li" id="three"></li>
+                <li class="li" id="four"></li>
+                <li class="li" id="five"></li>
+                <li class="li" id="six"></li>
+            </ul>
+        </div>
+            
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
